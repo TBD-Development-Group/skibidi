@@ -25,7 +25,6 @@ function frexp (arg) {
     return result
 }
 
-let opdata = require('./opdata.json')
 let encoder = {
     from_double: (x) => {
         let grab_byte = (v) => {
